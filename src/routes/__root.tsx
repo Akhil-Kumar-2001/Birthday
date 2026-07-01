@@ -77,12 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Birthday 🎂" },
-      { name: "description", content: "A little surprise made with love for Surya's birthday." },
-      { property: "og:title", content: "Happy Birthday, Surya" },
-      { property: "og:description", content: "A little surprise made with love for Surya's birthday." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { title: "Happy Birthday 🎂" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
